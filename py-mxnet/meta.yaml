@@ -10,6 +10,7 @@ source:
   patches:
     - 0001-Relax-constraints-on-requests-make-graphviz-optional.patch
     - 0002-conda-unbundle-libmxnet-DSO.patch
+    - 0001-remove-extra_link_args.patch
 
 build:
   skip: True  # [win and vc<14]
